@@ -16,6 +16,6 @@ sha256sums=(
 )
 
 package() {
-	install -D -m644 toggle-trackpad.sh ${pkgdir}/usr/bin/toggle-trackpad
+	install -D -m755 toggle-trackpad.sh ${pkgdir}/usr/bin/toggle-trackpad
 	install -D -m644 LICENSE ${pkgdir}/usr/share/licenses/toggle-trackpad/LICENSE
 }
